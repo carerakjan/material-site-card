@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "category": "Children",
+    "collection": [
+      {"src":"", "name":"", "alt":"", "title":"", "likes":0, "dislikes": 0}
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Nature",
+    "collection": [
+      {"src":"", "name":"", "alt":"", "title":"", "likes":0, "dislikes": 0}
+    ]
+  }
+]
