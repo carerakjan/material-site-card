@@ -1,31 +1,100 @@
 [
   {
     "id": 1,
-    "caption": "About Me",
-    "authorId": 1,
-    "description": "Lorem ipsum ...",
-    "pics": []
+    "pageId": 1,
+    "content":[
+      {
+        "type":"card",
+        "value": {
+          "headerImage": "",
+          "caption": "My Skills",
+          "description": ""
+        }
+      }
+    ]
   },
   {
     "id": 2,
-    "caption": "My Skills",
-    "authorId": 1,
-    "description": "Lorem ipsum ...",
-    "pics": []
+    "pageId": 1,
+    "content":[
+      {
+        "type":"card",
+        "value": {
+          "headerImage": "",
+          "caption": "My Hobby",
+          "description": ""
+        }
+      }
+    ]
   },
   {
     "id": 3,
-    "caption": "My Hobby",
-    "authorId": 1,
-    "description": "Lorem ipsum ...",
-    "pics": []
+    "pageId": 1,
+    "content":[
+      {
+        "type":"card",
+        "value": {
+          "headerImage": "",
+          "caption": "My Services",
+          "description": ""
+        }
+      }
+    ]
   },
   {
     "id": 4,
-    "caption": "My Services",
-    "authorId": 1,
-    "description": "Lorem ipsum ...",
-    "links":[{"title":"","src":""}],
-    "pics": [{"src":""}]
+    "pageId": 2,
+    "content":[
+      {
+        "type":"gallery",
+        "value": {
+          "bgImage": 3,
+          "caption": "Nature",
+          "collectionId": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "pageId": 2,
+    "content":[
+      {
+        "type":"gallery",
+        "value": {
+          "bgImage": 1,
+          "caption": "Children",
+          "collectionId": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "pageId": 2,
+    "content":[
+      {
+        "type":"gallery",
+        "value": {
+          "bgImage": 2,
+          "caption": "Celebrations",
+          "collectionId": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "pageId": 2,
+    "content":[
+      {
+        "type":"gallery",
+        "value": {
+          "bgImage": 1,
+          "caption": "Wedding",
+          "collectionId": 4
+        }
+      }
+    ]
   }
 ]

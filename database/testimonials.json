@@ -1,7 +1,23 @@
 [
   {
     "id": 1,
-    "fullName": "Ivanov Ivan",
+    "avatar": "",
+    "firstName": "Ivan",
+    "lastName": "Ivanov",
     "testimonial": "Very cool photographer!!"
+  },
+  {
+    "id": 2,
+    "avatar": "",
+    "firstName": "Petr",
+    "lastName": "Petrov",
+    "testimonial": "Very pretty girl."
+  },
+  {
+    "id": 3,
+    "avatar": "",
+    "firstName": "Semen",
+    "lastName": "Semenov",
+    "testimonial": "Really amazing professional."
   }
 ]

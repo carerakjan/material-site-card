@@ -2,35 +2,18 @@
   "id": 1,
   "firstName": "Anna",
   "lastName": "",
+  "avatar":"",
   "contacts":{
-    "email": "",
-    "phones": {
-      "mobile":[]
-    },
-    "soc": {
-      "skype":"",
-      "linkedIn":"",
-      "instagram":"",
-      "facebook":""
-    }
-  },
-  "homeAddress":{
-    "country": "",
-    "city": "",
-    "street":"",
-    "house":"",
-    "apartment":""
-  },
-  "jobOfficeAddress": {
-    "country": "",
-    "city": "",
-    "street":"",
-    "house":"",
-    "apartment":""
-  },
-  "locations": {
-    "home":[],
-    "office":[]
+    "address":"",
+    "email": [],
+    "phone": [
+      {"category":"mobile", "number":""}
+    ],
+    "soc": [
+      {"name":"linkedIn","account":""},
+      {"name":"instagram","account":""},
+      {"name":"facebook","account":""}
+    ]
   }
 
 }]
