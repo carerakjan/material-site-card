@@ -5,6 +5,7 @@
   "main": "index.html",
   "license": "MIT",
   "dependencies": {
-    "angular-material": "~0.11.4"
+    "angular-material": "~0.11.4",
+    "underscore": "~1.8.3"
   }
 }
