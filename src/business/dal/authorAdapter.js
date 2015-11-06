@@ -2,11 +2,11 @@
 
     var initAuthorModel = function(authorModel) {
         return function(data) {
-            return authorModel.init(data);
+            return authorModel.create(data);
         }
     };
 
-    var authorAdaptor = function($http, authorModel) {
+    var authorAdapter = function($http, authorModel) {
         return {
             fetch: function() {
                 return $http.get('database/author.json').then(function(json){
@@ -16,7 +16,7 @@
         };
     };
 
-    module.factory('authorAdaptor', ['$http','authorModel', authorAdaptor]);
+    module.factory('authorAdapter', ['$http','authorModel', authorAdapter]);
 
 })(function(){
     try {

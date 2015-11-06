@@ -7,7 +7,7 @@
         this.contacts = json.contacts;
     };
 
-    Author.prototype.init = function(json) {
+    Author.prototype.create = function(json) {
         return new Author(json);
     };
 
@@ -17,7 +17,7 @@
 
     module.factory('authorModel', function() {
        return {
-           init: Author.prototype.init
+           create: Author.prototype.create
        };
     });
 
