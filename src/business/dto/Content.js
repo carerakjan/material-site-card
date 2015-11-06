@@ -11,7 +11,7 @@
         }
     };
 
-    Content.prototype.initContent = function(gallery, card) {debugger;
+    Content.prototype.initContent = function(gallery, card) {
         switch(this.content['type']) {
             case 'card': this.content = card.create(this.content); break;
             case 'gallery': this.content = gallery.create(this.content); break;
