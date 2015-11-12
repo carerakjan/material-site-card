@@ -4,11 +4,9 @@
         return {
             createModel: function(Constructor) {
                 return {
-                    create: function(C) {
-                        return function(json) {
-                            return new C(json);
-                        }
-                    }(Constructor)
+                    create: function(json) {
+                        return new Constructor(json);
+                    }
                 };
             }
         }
