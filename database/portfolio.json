@@ -1,26 +1,17 @@
 [
-  {
-    "id": 1,
-    "collection": [
-      {"id":1, "src":"", "name":"", "alt":"", "title":"", "likes":0, "dislikes": 0}
-    ]
-  },
-  {
-    "id": 2,
-    "collection": [
-      {"id":1, "src":"", "name":"", "alt":"", "title":"", "likes":0, "dislikes": 0}
-    ]
-  },
-  {
-    "id": 3,
-    "collection": [
-      {"id":1, "src":"", "name":"", "alt":"", "title":"", "likes":0, "dislikes": 0}
-    ]
-  },
-  {
-    "id": 4,
-    "collection": [
-      {"id":1, "src":"", "name":"", "alt":"", "title":"", "likes":0, "dislikes": 0}
-    ]
-  }
+  {"id": 1, "collectionId": 1, "src":"", "alt":"", "title":"", "likes":0, "dislikes": 0},
+  {"id": 2, "collectionId": 1, "src":"", "alt":"", "title":"", "likes":0, "dislikes": 0},
+  {"id": 3, "collectionId": 1, "src":"", "alt":"", "title":"", "likes":0, "dislikes": 0},
+  {"id": 4, "collectionId": 1, "src":"", "alt":"", "title":"", "likes":0, "dislikes": 0},
+  {"id": 5, "collectionId": 2, "src":"", "alt":"", "title":"", "likes":0, "dislikes": 0},
+  {"id": 6, "collectionId": 2, "src":"", "alt":"", "title":"", "likes":0, "dislikes": 0},
+  {"id": 7, "collectionId": 2, "src":"", "alt":"", "title":"", "likes":0, "dislikes": 0},
+  {"id": 8, "collectionId": 3, "src":"", "alt":"", "title":"", "likes":0, "dislikes": 0},
+  {"id": 9, "collectionId": 3, "src":"", "alt":"", "title":"", "likes":0, "dislikes": 0},
+  {"id": 10, "collectionId": 3, "src":"", "alt":"", "title":"", "likes":0, "dislikes": 0},
+  {"id": 11, "collectionId": 4, "src":"", "alt":"", "title":"", "likes":0, "dislikes": 0},
+  {"id": 12, "collectionId": 4, "src":"", "alt":"", "title":"", "likes":0, "dislikes": 0},
+  {"id": 13, "collectionId": 5, "src":"", "alt":"", "title":"", "likes":0, "dislikes": 0},
+  {"id": 14, "collectionId": 5, "src":"", "alt":"", "title":"", "likes":0, "dislikes": 0},
+  {"id": 15, "collectionId": 5, "src":"", "alt":"", "title":"", "likes":0, "dislikes": 0}
 ]

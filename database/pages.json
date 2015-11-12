@@ -1,22 +1,6 @@
 [
-  {
-    "id": 1,
-    "title": "About Me",
-    "hashTag": "about"
-  },
-  {
-    "id": 2,
-    "title": "Portfolio",
-    "hashTag": "portfolio"
-  },
-  {
-    "id": 3,
-    "title": "Testimonials",
-    "hashTag": "testimonials"
-  },
-  {
-    "id": 4,
-    "title": "Contacts",
-    "hashTag": "contacts"
-  }
+  {"id": 1, "authorId":1, "title": "About Me", "subTitle":"", "hashTag": "about"},
+  {"id": 2, "authorId":1, "title": "Portfolio", "subTitle":"", "hashTag": "portfolio"},
+  {"id": 3, "authorId":1, "title": "Testimonials", "subTitle":"", "hashTag": "testimonials"},
+  {"id": 4, "authorId":1, "title": "Contacts", "subTitle":"", "hashTag": "contacts"}
 ]

@@ -1,9 +1,9 @@
 (function(module){
 
-    var dataTypes = ['author', 'content'];
+    var dataTypes = ['authors', 'contents', 'pages'];
     var cache = null;
 
-    var businessFacade = function($q, authorAdapter, contentAdapter) {
+    var businessFacade = function($q, authorAdapter, contentAdapter, pageAdapter) {
         return {
             fetchAllData: function(refetch) {
                 if(!refetch && cache && cache.length) {
@@ -11,7 +11,8 @@
                 }
                 return $q.all([
                     authorAdapter.fetch(),
-                    contentAdapter.fetch()
+                    contentAdapter.fetch(),
+                    pageAdapter.fetch()
                 ]).then(function(results) {
                     cache = _.map(dataTypes, function(dt, index) {
                         return {

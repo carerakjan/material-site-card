@@ -1,19 +1,11 @@
-[{
-  "id": 1,
-  "firstName": "Anna",
-  "lastName": "Logvinenko",
-  "avatar":"",
-  "contacts":{
+[
+  {
+    "id": 1,
+    "firstName": "",
+    "lastName": "",
+    "avatar":"",
     "address":"",
-    "email": [],
-    "phone": [
-      {"category":"mobile", "number":""}
-    ],
-    "soc": [
-      {"name":"linkedIn","account":""},
-      {"name":"instagram","account":""},
-      {"name":"facebook","account":""}
-    ]
+    "email": "",
+    "phone": ""
   }
-
-}]
+]

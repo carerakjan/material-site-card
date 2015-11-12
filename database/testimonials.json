@@ -1,23 +1,26 @@
 [
   {
     "id": 1,
+    "authorId": 1,
     "avatar": "",
-    "firstName": "Ivan",
-    "lastName": "Ivanov",
+    "guestFirstName": "Ivan",
+    "guestLastName": "Ivanov",
     "testimonial": "Very cool photographer!!"
   },
   {
     "id": 2,
+    "authorId": 1,
     "avatar": "",
-    "firstName": "Petr",
-    "lastName": "Petrov",
+    "guestFirstName": "Petr",
+    "guestLastName": "Petrov",
     "testimonial": "Very pretty girl."
   },
   {
     "id": 3,
+    "authorId": 1,
     "avatar": "",
-    "firstName": "Semen",
-    "lastName": "Semenov",
+    "guestFirstName": "Semen",
+    "guestLastName": "Semenov",
     "testimonial": "Really amazing professional."
   }
 ]

@@ -1,100 +1,23 @@
 [
   {
     "id": 1,
-    "pageId": 1,
-    "content":
-      {
-        "type":"card",
-        "value": {
-          "headerImage": {"collectionId": 1, "imageId":2},
-          "caption": "My Skills",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        }
-      }
-
+    "authorId":1,
+    "pageId":1,
+    "caption": "My Skills",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   {
     "id": 2,
-    "pageId": 1,
-    "content":
-      {
-        "type":"card",
-        "value": {
-          "headerImage": {"collectionId": 1, "imageId":2},
-          "caption": "My Hobby",
-          "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
-        }
-      }
-
+    "authorId": 1,
+    "pageId":1,
+    "caption": "My Hobby",
+    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
   },
   {
     "id": 3,
-    "pageId": 1,
-    "content":
-      {
-        "type":"card",
-        "value": {
-          "headerImage": {"collectionId": 1, "imageId":2},
-          "caption": "My Services",
-          "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-        }
-      }
-
-  },
-  {
-    "id": 4,
-    "pageId": 2,
-    "content":
-      {
-        "type":"gallery",
-        "value": {
-          "bgImage": 3,
-          "caption": "Nature",
-          "collectionId": 1
-        }
-      }
-
-  },
-  {
-    "id": 5,
-    "pageId": 2,
-    "content":
-      {
-        "type":"gallery",
-        "value": {
-          "bgImage": 1,
-          "caption": "Children",
-          "collectionId": 2
-        }
-      }
-
-  },
-  {
-    "id": 6,
-    "pageId": 2,
-    "content":
-      {
-        "type":"gallery",
-        "value": {
-          "bgImage": 2,
-          "caption": "Celebrations",
-          "collectionId": 3
-        }
-      }
-
-  },
-  {
-    "id": 7,
-    "pageId": 2,
-    "content":
-      {
-        "type":"gallery",
-        "value": {
-          "bgImage": 1,
-          "caption": "Wedding",
-          "collectionId": 4
-        }
-      }
-
+    "authorId": 1,
+    "pageId":1,
+    "caption": "My Services",
+    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
   }
 ]

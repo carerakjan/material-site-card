@@ -1,0 +1,7 @@
+[
+  {"id":1, "authorId":1, "name":"Nature"},
+  {"id":2, "authorId":1, "name":"Children"},
+  {"id":3, "authorId":1, "name":"City"},
+  {"id":4, "authorId":1, "name":"People"},
+  {"id":5, "authorId":1, "name":"Weddings"}
+]

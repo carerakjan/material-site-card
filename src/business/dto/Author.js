@@ -1,10 +1,13 @@
 (function(module){
+
     var Author = function(json) {
         this.id = json.id;
         this.firstName = json.firstName;
         this.lastName = json.lastName;
         this.avatar = json.avatar;
-        this.contacts = json.contacts;
+        this.address = json.address;
+        this.email = json.email;
+        this.phone = json.phone;
     };
 
     Author.prototype.create = function(json) {
@@ -15,16 +18,14 @@
         return this.firstName + ' ' + this.lastName;
     };
 
-    module.factory('authorModel', function() {
-       return {
-           create: Author.prototype.create
-       };
+    module.factory('authorModel', function(modelFactory) {
+       return modelFactory.createModel(Author);
     });
 
 })(function(){
     try {
         return angular.module('business.dto');
     } catch(e) {
-        return angular.module('business.dto', []);
+        return angular.module('business.dto', ['business.common']);
     }
 }());

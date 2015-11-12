@@ -1,27 +1,15 @@
 (function(module){
 
-    var initModel = function(model) {
-        return function(data) {
-            return model.create(data);
-        }
+    var contentAdapter = function(adapterFactory, contentModel) {
+        return adapterFactory.init('database/content.json', contentModel);
     };
 
-    var contentAdapter = function($http, contentModel) {
-        return {
-            fetch: function() {
-                return $http.get('database/content.json').then(function(json){
-                    return _.map(json.data, initModel(contentModel));
-                });
-            }
-        };
-    };
-
-    module.factory('contentAdapter', ['$http','contentModel', contentAdapter]);
+    module.factory('contentAdapter', ['adapterFactory', 'contentModel', contentAdapter]);
 
 })(function(){
     try {
         return angular.module('business.dal');
     } catch(e) {
-        return angular.module('business.dal', ['ng','business.dto']);
+        return angular.module('business.dal', ['business.common','business.dto']);
     }
 }());
