@@ -10,10 +10,6 @@
         this.phone = json.phone;
     };
 
-    Author.prototype.create = function(json) {
-        return new Author(json);
-    };
-
     Author.prototype.getFullName = function() {
         return this.firstName + ' ' + this.lastName;
     };
